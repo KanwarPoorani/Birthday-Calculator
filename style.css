@@ -50,3 +50,27 @@ h1 {
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 600px) {
+  .Time-section {
+    gap: 15px;
+  }
+
+  .Time-section div {
+    flex-basis: 80px;
+    padding: 10px;
+  }
+
+  .Time-section p {
+    font-size: 32px;
+  }
+
+  .Time-section span {
+    font-size: 14px;
+  }
+
+  .Balloon {
+    height: 15vh;
+    right: 5%;
+  }
+}
